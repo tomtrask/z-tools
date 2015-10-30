@@ -8,6 +8,7 @@ tool | usage
 zBackup.js | zBackup {folder to back up} (copies all files in folder to someplace (read the code) with an extension reflecting the date of the backup)
 zClearTemp.js | zCleartemp (removes all files from %temp)
 zKill.js | zKill {partial executable name} (kills all process with names that match the partial name - no regex)
+zUninstallAll.cmd | zUninstallAll (run from folder with node_modules and package.json to uninstall all installed packages --- this gets around path limits in windows command line)
 zUnlog.js | zUnlog (um...probably kind of specific to development.  Deletes common log files from common locations)
 zWhatConfig.js | zWhatConfig (which file like standalone.xml matches standalone.xml?  this is another developer tool)
 
